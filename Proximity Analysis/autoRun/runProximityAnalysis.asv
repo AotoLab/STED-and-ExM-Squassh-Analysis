@@ -1,0 +1,10 @@
+addpath(genpath('C:\Users\sammy\Dropbox\Sam Kennedy Lab\Projects\code\SmithLab SIM\Proximity Analysis\autoRun'));
+c0 = 2; c1 = 3; % channel pair for analysis, nomenclature c1 -> c0 (saved as C1C0)
+
+% folderN = uigetdir();
+folderN = 'D:\STED data\2022-12-20 OlahS\bg 1000\SquaashMe IB only restrictive';
+autoRun_findIntensityMaxPointsSTED(folderN)
+autoRun_evaluate_ObjCouplingSTED(folderN,c0,c1);
+autoRun_compileData_objectProximity(folderN,c0,c1);
+% autoRun_generateProximityViz(folderN,c0,c1);
+disp('All Done');

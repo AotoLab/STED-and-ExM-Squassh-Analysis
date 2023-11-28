@@ -1,0 +1,5 @@
+% Enter object id for structures to be filtered out of msk image; use zero to indicate no objs or no further objs; include data for all channels,,,,
+Synapse,Channel,objID,objID,...
+Synapse,Ch1,0,,
+,Ch2,0,,
+,Ch3,0,,
